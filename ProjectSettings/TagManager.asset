@@ -7,6 +7,7 @@ TagManager:
   - ennemy
   - ground
   - shield
+  - wall
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - shield
   - player
   - fireball
-  - 
+  - souris
   - 
   - 
   - 

@@ -69,11 +69,12 @@ public class ennemy_scripts : MonoBehaviour
 
     public void atk()
     {
-        if (Random.Range(0, 100) <= 1) {
-            spawn_chauve_souris();
-        }
         if (elapsed_time >= time_beetween_balls) {
             elapsed_time = 0f;
+            if (Random.Range(0, 100) <= 15) {
+                spawn_chauve_souris();
+                return;
+            }
             GameObject obj = Instantiate(fireball_prefab, proj_pos.transform.position, Quaternion.identity) as GameObject;
             obj.GetComponent<fireball>().set_dir(dir);
             obj.GetComponent<fireball>().set_pos(proj_pos.transform.position);
