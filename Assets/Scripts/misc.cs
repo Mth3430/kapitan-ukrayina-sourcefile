@@ -5,7 +5,7 @@ using UnityEngine;
 public class misc : MonoBehaviour
 {
     public GameObject video;
-    bool test = true;
+    public bool test;
     void Start()
     {
         //Start the coroutine we define below named ExampleCoroutine.
@@ -22,6 +22,9 @@ public class misc : MonoBehaviour
     IEnumerator ExampleCoroutine()
     {
         //Print the time of when the function is first called.
+        if (test = true)
+            yield return new WaitForSeconds(5);
+            video.SetActive(true);
         Debug.Log("Started Coroutine at timestamp : " + Time.time);
             //yield on a new YieldInstruction that waits for 5 seconds.
         yield return new WaitForSeconds(51);
