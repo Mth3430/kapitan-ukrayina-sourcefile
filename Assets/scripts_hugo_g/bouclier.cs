@@ -24,8 +24,8 @@ public class bouclier : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("bouclier");
         Pos_init = transform.position;
+        Debug.Log("bouclier");
     }
 
     private void OnDestroy() {
