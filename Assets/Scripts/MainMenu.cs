@@ -9,28 +9,16 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame ()
     {
-        if (!all_var) {
-            all_var = GameObject.Find("all_var").GetComponent<all_var_script>();
-        }
-        all_var.Reset();
         SceneManager.LoadScene(1);
     }
 
     public void QuitGame ()
     {
-        if (!all_var) {
-            all_var = GameObject.Find("all_var").GetComponent<all_var_script>();
-        }
-        all_var.Reset();
         Application.Quit();
     }
 
     public void MenuGame()
     {
-        if (!all_var) {
-            all_var = GameObject.Find("all_var").GetComponent<all_var_script>();
-        }
-        all_var.Reset();
         SceneManager.LoadScene(0);
     }
 
