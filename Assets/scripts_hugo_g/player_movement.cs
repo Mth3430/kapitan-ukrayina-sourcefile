@@ -12,12 +12,14 @@ public class player_movement : MonoBehaviour
     public float atk_range = 1f;
     public float atk_damage = 1f;
     public float dist_to_ground = 1f;
+    public bool is_dead = false;
     public bool is_shoot = false;
     public LayerMask ground;
     public LayerMask ennemy;
     public KeyCode attack_key = KeyCode.E;
     public GameObject shield_prefab;
     public GameObject shield_pos;
+    public GameObject death_pannel;
     public Animator animator;
     private short dir = 1;
     private bool is_jumping = false;
@@ -25,7 +27,9 @@ public class player_movement : MonoBehaviour
     public void take_damage(float damage) {
         life -= damage;
         if (life <= 0) {
-            print("dead");
+            death_pannel.SetActive(true);
+            Time.timeScale = 0f;
+            is_dead = true;
         }
     }
 
@@ -66,7 +70,7 @@ public class player_movement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (is_shoot) {
+        if (is_shoot || is_dead) {
             return;
         }
         if (Input.GetKey(KeyCode.Space) || Input.GetKey(playerInput[0]))
@@ -83,7 +87,7 @@ public class player_movement : MonoBehaviour
     void LateUpdate()
     {
         bool walk = false;
-        if (is_shoot) {
+        if (is_shoot || is_dead) {
             return;
         }
         if (animator.GetBool("wait")) {
