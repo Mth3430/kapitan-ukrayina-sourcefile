@@ -21,6 +21,10 @@ public class ennemy_scripts : MonoBehaviour
     public LayerMask player_layer;
     public LayerMask ground;
 
+    float get_life() {
+        return life;
+    }
+
     IEnumerator wait_death()
     {
         animator.SetBool("death", true);
@@ -63,15 +67,14 @@ public class ennemy_scripts : MonoBehaviour
     public void spawn_chauve_souris()
     {
         GameObject obj = Instantiate(chauve_souris_prefab, proj_pos.transform.position, Quaternion.identity) as GameObject;
-        obj.GetComponent<fireball>().set_dir(dir);
-        obj.GetComponent<fireball>().set_pos(proj_pos.transform.position);
+        obj.GetComponent<chauve_souris>().set_pos(proj_pos.transform.position);
     }
 
     public void atk()
     {
         if (elapsed_time >= time_beetween_balls) {
             elapsed_time = 0f;
-            if (Random.Range(0, 100) <= 15) {
+            if (Random.Range(0, 100) <= 20) {
                 spawn_chauve_souris();
                 return;
             }
@@ -153,6 +156,11 @@ public class ennemy_scripts : MonoBehaviour
             return -x;
         }
         return x;
+    }
+
+    private void Start()
+    {
+        player = GameObject.Find("captain");
     }
 
     void FixedUpdate()

@@ -186,7 +186,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   attack_key: 101
-  shield_prefab: {fileID: 7249879819470226569, guid: 4df67f85e2992194d9dbb36ed4a8a5cb, type: 3}
+  shield_prefab: {fileID: 2132648545553483631, guid: 4df67f85e2992194d9dbb36ed4a8a5cb, type: 3}
   shield_pos: {fileID: 444754775277343342}
   animator: {fileID: 444754775948892423}
 --- !u!95 &444754775948892423

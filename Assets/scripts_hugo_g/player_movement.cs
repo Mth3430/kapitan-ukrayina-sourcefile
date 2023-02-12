@@ -8,6 +8,7 @@ public class player_movement : MonoBehaviour
     public string[] playerInput = new string[3] { "z", "q", "d" };
     public float speed = 1f;
     public float jump = 1f;
+    public float life = 3f;
     public float atk_range = 1f;
     public float atk_damage = 1f;
     public float dist_to_ground = 1f;
@@ -22,6 +23,10 @@ public class player_movement : MonoBehaviour
     private bool is_jumping = false;
 
     public void take_damage(float damage) {
+        life -= damage;
+        if (life <= 0) {
+            print("dead");
+        }
     }
 
     public void set_shoot(bool shoot) {
