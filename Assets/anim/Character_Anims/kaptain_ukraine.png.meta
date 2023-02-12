@@ -1,0 +1,1764 @@
+fileFormatVersion: 2
+guid: a0f78b664e3667b49a9c1ff7b90a3acc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kaptain_ukraine_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 602
+        width: 37
+        height: 65
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41775ce6216af847b1ad894e553c287
+      internalID: 824967449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 602
+        width: 38
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e0294fb9124da4684ffb7ec7caf196
+      internalID: 283202371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 602
+        width: 38
+        height: 63
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2907fa1d0243184faf3f9e78ba16ea3
+      internalID: -1881868700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 602
+        width: 39
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c401e31326d3a3d499c915a3611d29af
+      internalID: 978733733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 602
+        width: 27
+        height: 69
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c07a90eea8fec4a93012184bf35474
+      internalID: 105821075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 602
+        width: 31
+        height: 68
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f84b554e3885f4cbe5b5d8268681a2
+      internalID: 1885250160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 602
+        width: 40
+        height: 68
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a814fe388e6050c4a9d718f56b1c9583
+      internalID: -35997266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_7
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 602
+        width: 31
+        height: 70
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e575e8009370d334497c1130d1ced696
+      internalID: -367729882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 602
+        width: 23
+        height: 69
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33df291823d1884c83cf47998153206
+      internalID: -1091392204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 602
+        width: 34
+        height: 68
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f830d8309ab280438f3809cb71a0625
+      internalID: 39924921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 528
+        width: 40
+        height: 63
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444bf4ab19bc83241a960aabd58ffe43
+      internalID: -1423407395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 528
+        width: 56
+        height: 62
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc5c2cd922db724aa4909175c6aa9da
+      internalID: -1653814759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 528
+        width: 43
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be553885c7d9c14481aaea98be5e2e2
+      internalID: 607789422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 48
+        height: 63
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482ebf89d5a8c954fbab4e6d3b583895
+      internalID: -18950063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_14
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 528
+        width: 39
+        height: 67
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98db8ff9572cfbf44a842b054d2747ad
+      internalID: -672243840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 528
+        width: 59
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae79b73482de11a49a0ba8ca2f2ab64c
+      internalID: -1851393123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_16
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 528
+        width: 46
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf1e8c9ded8c104faaa18379177ce9f
+      internalID: -1185050313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 528
+        width: 40
+        height: 61
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0883a6cd6c153644d930476564022657
+      internalID: 1061206321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 459
+        width: 38
+        height: 56
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2701d8daf5b8184dbe77403bf8ee157
+      internalID: 341766279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 459
+        width: 42
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672ac157479220c41b000a44666ffcad
+      internalID: -1082670351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 459
+        width: 56
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a3228953d8cc945bcc4af4a6bdf89a
+      internalID: 725642373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_21
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 459
+        width: 43
+        height: 62
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b1d3819aba9cc458a795f6d693e5c1
+      internalID: -1389221221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_22
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 459
+        width: 39
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659330388e82ebc4ba9cb702b1e9e401
+      internalID: -668852726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 459
+        width: 68
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3d4e2a7c78fe94b868dfcda54e27fc
+      internalID: 1389554068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_24
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 459
+        width: 40
+        height: 47
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06014fb9df36bc34fbf555772fc6eea5
+      internalID: -803567492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 372
+        width: 37
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a13063a76ed5644991199c5f2e5facf
+      internalID: -1712806306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 372
+        width: 42
+        height: 77
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2cb265a201fbc45aa8b38528a9d049
+      internalID: 1999830887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_27
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 372
+        width: 27
+        height: 69
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f2bedceea7b1b43891ce5763b9f219
+      internalID: 498822999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_28
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 372
+        width: 29
+        height: 65
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c683d429c4e24424e9126921e95bb8ec
+      internalID: 480561800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_29
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 372
+        width: 28
+        height: 55
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b40d2059ec85114db4420f5060ee8e6
+      internalID: -2087154140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_30
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 372
+        width: 57
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca892a32e1c593a499d376639b885504
+      internalID: 983662718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_31
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 372
+        width: 56
+        height: 46
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50823a862d19cf45ae2cc7677fd5548
+      internalID: -858548557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_32
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 372
+        width: 36
+        height: 81
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567d349bc8a9c304c9596272895a9487
+      internalID: 1055954761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_33
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 300
+        width: 56
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79644d38bdfb2874bafd1a951e5acb7f
+      internalID: 1996694974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 300
+        width: 58
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaabab8843a6904e8d6c4764bf3fc59
+      internalID: -286332120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_35
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 300
+        width: 39
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1f72e581ef6a74281b39824ef82501
+      internalID: -85997857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_36
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 300
+        width: 52
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12de9efb20d3db541a3c98326eb00777
+      internalID: -99807300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_37
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 300
+        width: 42
+        height: 63
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dd8d32bfedbf049add1c078a238cf1
+      internalID: -1712761651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_38
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 300
+        width: 41
+        height: 63
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d8d2ca5e5f3a442b709c2c7e67ff21
+      internalID: -1036984315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_39
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 300
+        width: 39
+        height: 57
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb05abf710aef8842bbed21e7ada6e36
+      internalID: 217472914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 214
+        width: 63
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179874efe98052040a0a1dd24d434fb1
+      internalID: -302816401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_41
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 214
+        width: 68
+        height: 70
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0502eb5cb2657fe4b8b92e4f073129f0
+      internalID: 1986485012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_42
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 214
+        width: 68
+        height: 70
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fafda636e0f7947b1af006d2297334
+      internalID: 847164792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_43
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 214
+        width: 62
+        height: 70
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed927328f3659e4bbd9a80883ec868f
+      internalID: 1528628593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_44
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 147
+        width: 45
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab24b7bbaa4486b42be78913ee69c396
+      internalID: 154034732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 147
+        width: 41
+        height: 58
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51b95974aae5e347b6b574fcba31c25
+      internalID: 2096817775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_46
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 147
+        width: 34
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0827a5647dc9c428fd62b8fd0cf3bf
+      internalID: -303483176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_47
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 144
+        width: 54
+        height: 45
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54eb2cb04f942347a6a5a2072750592
+      internalID: 217659453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_48
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 142
+        width: 70
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9769e21f6f089409807676c36546bc
+      internalID: 1670343798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_49
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 147
+        width: 54
+        height: 41
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6f87196bd0c0a43a8c7240d4c062d8
+      internalID: -1997480166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 93
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b2948626cd3ff41b74f4ad361f44e8
+      internalID: -208614550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_51
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 93
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a822a01d6227948a6714cbc41e7cd2
+      internalID: 420206547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_52
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 93
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6f35dfac171f642a2a2116cbb5c3f3
+      internalID: -879124983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_53
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 93
+        width: 21
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84535d8a747b2f64ab4af3e78c1a8e15
+      internalID: 764455437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_54
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 93
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39f49cdbc0e99a4bb955e76da8535db
+      internalID: 547656766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_55
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 93
+        width: 24
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295b294f9d9429a4996981e19852f41d
+      internalID: 1188411199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_56
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 93
+        width: 21
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bab5b91d4f46f744bdb20d2f2552496
+      internalID: -677909950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_57
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 93
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c4be77968a3ec4f876031df76dac4c
+      internalID: 1669730961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_58
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 93
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180d70435f5fc134eb049ce283750220
+      internalID: 1623914710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_59
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 93
+        width: 21
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad5ecc21f328a840a6e2b5c15f1e06f
+      internalID: -2015646748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_60
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 93
+        width: 5
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00fcb4f7cfdbfb4da2a33fb100f9f21
+      internalID: -1056532469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_61
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 93
+        width: 22
+        height: 23
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af73066b7e6d2d4a864d5d153ea4617
+      internalID: 1767630705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_63
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 15
+        width: 22
+        height: 23
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063819fb5932fe74e9c236cfce189e86
+      internalID: -980173233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_64
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 15
+        width: 5
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15db59404c45e754ebd3c3c846026d50
+      internalID: -1959393637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_65
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 15
+        width: 21
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f16e752d11fa3c4eaa37ff2254a3a92
+      internalID: 37130323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_66
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 15
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62acf3e6fb1b2148822b3be1e1c3d7b
+      internalID: 131584990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_67
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 15
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed53bb7023b5a74db6ce26d6159460a
+      internalID: 1432018865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_68
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 15
+        width: 21
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8378a7e3f1aa31744a3737da2a4286ca
+      internalID: 823485713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_69
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 15
+        width: 24
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd544416e1244c94a8904fc8f90f238a
+      internalID: 944664994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_70
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 15
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408fca07469f80d40b0c849f3b7899e4
+      internalID: 1367704723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_71
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 15
+        width: 21
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca641faeb68c9149998f89528a27dea
+      internalID: 5218376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_72
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 15
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5884d0fe543b738478f3525e1b33698c
+      internalID: 944660006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_73
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 15
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ae22bdd96531d408fb35da7bef7c71
+      internalID: -896404690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaptain_ukraine_74
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 15
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe411396d7bbf2b4187088a32629918f
+      internalID: -1625075463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kaptain_ukraine_4: 105821075
+      kaptain_ukraine_20: 725642373
+      kaptain_ukraine_22: -668852726
+      kaptain_ukraine_61: 1767630705
+      kaptain_ukraine_37: -1712761651
+      kaptain_ukraine_3: 978733733
+      kaptain_ukraine_67: 1432018865
+      kaptain_ukraine_73: -896404690
+      kaptain_ukraine_31: -858548557
+      kaptain_ukraine_17: 1061206321
+      kaptain_ukraine_45: 2096817775
+      kaptain_ukraine_10: -1423407395
+      kaptain_ukraine_64: -1959393637
+      kaptain_ukraine_35: -85997857
+      kaptain_ukraine_38: -1036984315
+      kaptain_ukraine_19: -1082670351
+      kaptain_ukraine_18: 341766279
+      kaptain_ukraine_0: 824967449
+      kaptain_ukraine_42: 847164792
+      kaptain_ukraine_57: 1669730961
+      kaptain_ukraine_49: -1997480166
+      kaptain_ukraine_5: 1885250160
+      kaptain_ukraine_71: 5218376
+      kaptain_ukraine_40: -302816401
+      kaptain_ukraine_70: 1367704723
+      kaptain_ukraine_9: 39924921
+      kaptain_ukraine_7: -367729882
+      kaptain_ukraine_23: 1389554068
+      kaptain_ukraine_16: -1185050313
+      kaptain_ukraine_27: 498822999
+      kaptain_ukraine_30: 983662718
+      kaptain_ukraine_21: -1389221221
+      kaptain_ukraine_12: 607789422
+      kaptain_ukraine_65: 37130323
+      kaptain_ukraine_26: 1999830887
+      kaptain_ukraine_66: 131584990
+      kaptain_ukraine_28: 480561800
+      kaptain_ukraine_25: -1712806306
+      kaptain_ukraine_32: 1055954761
+      kaptain_ukraine_29: -2087154140
+      kaptain_ukraine_68: 823485713
+      kaptain_ukraine_14: -672243840
+      kaptain_ukraine_51: 420206547
+      kaptain_ukraine_72: 944660006
+      kaptain_ukraine_15: -1851393123
+      kaptain_ukraine_24: -803567492
+      kaptain_ukraine_6: -35997266
+      kaptain_ukraine_50: -208614550
+      kaptain_ukraine_39: 217472914
+      kaptain_ukraine_59: -2015646748
+      kaptain_ukraine_63: -980173233
+      kaptain_ukraine_41: 1986485012
+      kaptain_ukraine_53: 764455437
+      kaptain_ukraine_56: -677909950
+      kaptain_ukraine_52: -879124983
+      kaptain_ukraine_13: -18950063
+      kaptain_ukraine_47: 217659453
+      kaptain_ukraine_62: 734405048
+      kaptain_ukraine_36: -99807300
+      kaptain_ukraine_2: -1881868700
+      kaptain_ukraine_69: 944664994
+      kaptain_ukraine_44: 154034732
+      kaptain_ukraine_11: -1653814759
+      kaptain_ukraine_54: 547656766
+      kaptain_ukraine_55: 1188411199
+      kaptain_ukraine_46: -303483176
+      kaptain_ukraine_48: 1670343798
+      kaptain_ukraine_43: 1528628593
+      kaptain_ukraine_74: -1625075463
+      kaptain_ukraine_8: -1091392204
+      kaptain_ukraine_33: 1996694974
+      kaptain_ukraine_60: -1056532469
+      kaptain_ukraine_1: 283202371
+      kaptain_ukraine_34: -286332120
+      kaptain_ukraine_58: 1623914710
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

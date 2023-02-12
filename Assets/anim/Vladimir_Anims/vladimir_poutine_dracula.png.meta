@@ -1,0 +1,1502 @@
+fileFormatVersion: 2
+guid: 10ee2e81991b0bc40954fcd9cdc6d05e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 392
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a584e465b734774bbbfea03999b40d5
+      internalID: -893013782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 393
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b68d0326ca079488946638be4fc4fb
+      internalID: 312450935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 393
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada605cc527706249b80f556eca0ec6b
+      internalID: -59338364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 395
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447ad5a1d287c2243a4f79765c9ad778
+      internalID: 1727902379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 393
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067deeda1d4620743b01126c9b8df908
+      internalID: 586363471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 393
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6275e2afe20bfa644a5dd18eff043705
+      internalID: -56262933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_6
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 393
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2954d350c992e2e4094d975048ff4f18
+      internalID: 1929158546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 391
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f338e2e2b0df98446aac6803bf8ec20c
+      internalID: 1491997981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 296
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8fe6097577cee4e99374a320b8fae5
+      internalID: -1597500273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 296
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6d06ce0db1a43468770757c93737ad
+      internalID: 2029940113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 296
+        width: 45
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b6706597e358d4e867d1af6e66465f
+      internalID: 1238876584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 325
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48232a31fc3a7d41a26509a932fc956
+      internalID: -51457269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_13
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 325
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c690b55ae1c69884c824f0a630ed584c
+      internalID: 1424763389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_14
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 326
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc5059a3c6b01d469d1895d3663b12b
+      internalID: 1411525130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 326
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bbec44764d24343a3e7e0f94887400
+      internalID: -1351821271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_16
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 326
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2da4c89ec28324e8fe3d8b3082ab0a
+      internalID: -416567944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_17
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 326
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2eedf57a5474c34f99b9e5276d3605b
+      internalID: 1510366705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_18
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 326
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0101bfc0d1343ac4dadd029a21bc31e9
+      internalID: -585421466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_19
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 326
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e116b397cb51e5145a59df2f4caff44b
+      internalID: -750181841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_20
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 328
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee43cae7f566ae428f9484166141c88
+      internalID: -2001228855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_21
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 328
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f12fef7a4d2414aabc0e65b5a787cb
+      internalID: 1835570835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 200
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b29ce2029a29264b9a320b95a798e3b
+      internalID: 1247658308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 201
+        width: 53
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b29b1958751bc4797a3a333c0067ac
+      internalID: 1144450255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_24
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 200
+        width: 57
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99cc5f0a7eccab49bf2d95bd57ee1f5
+      internalID: 214378913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_25
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 200
+        width: 56
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c32d55e2f33da4ab1922b4beb6b925
+      internalID: 1096698657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_26
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 200
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e7d0d1940192d44a71aa8a645b2bd7
+      internalID: 1514369843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_27
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 258
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690484500451048438e0303c5b4ec835
+      internalID: 65552436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_28
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 251
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aec482490cd6c143ba6dda92f7ba980
+      internalID: 967153879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_29
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 251
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6975b6988e98c6746889ec605db7c4cc
+      internalID: 140456397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_30
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 250
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dca90a3626678e419b4303c7b086a7b
+      internalID: -1311874852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_31
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6cf29f076200f4d841ba62bec17371
+      internalID: -1820339815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_32
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 224
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99e261891f88404d98bcb74264d426f
+      internalID: -1544814264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_33
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 224
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfa519afe4dd92448fd646a32382e05
+      internalID: 1095144802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_35
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 224
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4061bda5cb3ee064494c3e5363662e57
+      internalID: 357020538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_36
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 224
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddec0e06fd0aa4b45b6234508b144082
+      internalID: 655801831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_37
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 201
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12847f592cf94694ab208f0f3b226e8d
+      internalID: 741316726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_38
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 201
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98762ca4ee9a7f14f9dce0f3b64d0a48
+      internalID: -1432324949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_39
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 202
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54627162f95f07644a182832f5480097
+      internalID: 888860517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_40
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 202
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b4df373f7ca50459ffe3c4b56f6ab2
+      internalID: 174621035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_42
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 105
+        width: 47
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f14da29295b674d90dc27dcab00fb4
+      internalID: 1569347744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_43
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 105
+        width: 51
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ce7ec67f48d514b81cb450a5e1d2c5
+      internalID: -1573717257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_44
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 106
+        width: 56
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee91ffc64ebc074995462099c587129
+      internalID: 1317594434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_45
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 105
+        width: 56
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580fed95090ade34980b927803a4f7f0
+      internalID: 1819483572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_46
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 164
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed5834be140fab4aa2738d01376b786
+      internalID: -2005839342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 162
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8b6f3e745dc304aa57127600570b1c
+      internalID: 1200155980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_48
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 156
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484569ae2e85a544ca0450e56fe369c2
+      internalID: 1096466108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_49
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 135
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce8a462a85ff154bb85a5cf47f20048
+      internalID: -2068219174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_50
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 135
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bddca2af1af37244a23be73b164ac6a
+      internalID: -1632522297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_51
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 135
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc64c6e1f38857488e2c9bfca1b499d
+      internalID: -913645886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_52
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 136
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aea231baf5f1684ea27e27aa326a17e
+      internalID: -947131267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_53
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 136
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42cf77d0842cc3498404b61836704d6
+      internalID: -381009554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_54
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c914a2b7122771040acb2db7aeffb694
+      internalID: -68735521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_55
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181617ef76bfb9c4c8a7fdad441b3cb2
+      internalID: 365027410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_56
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 96
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a146383b09c5a43a003bbcc2e2cb7d
+      internalID: -590716688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_57
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 18
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5d9faf0daba9546b0b1a4d090f080a
+      internalID: -212530476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_58
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 10
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202aee6287b14a541aecbc21410fb611
+      internalID: 981740555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_59
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 4
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695103889ee5212478334b56492be918
+      internalID: 1225695240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_60
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 70
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a91936f69bdb7c4a8c32678cd02244a
+      internalID: -1331766280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_61
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 70
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3235a98b0bac3b64ea844ba6be99590a
+      internalID: -695300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_62
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 70
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0f5e36c827eea41b412bba64acc80f
+      internalID: 965530253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_63
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 73
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a037171daa8b7084c91a51c8a82119fe
+      internalID: -1057336306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vladimir_poutine_dracula_64
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 73
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95008a64497111345822e0c3dc87a606
+      internalID: -1050656843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vladimir_poutine_dracula_18: -585421466
+      vladimir_poutine_dracula_2: -59338364
+      vladimir_poutine_dracula_21: 1835570835
+      vladimir_poutine_dracula_23: 1144450255
+      vladimir_poutine_dracula_27: 65552436
+      vladimir_poutine_dracula_39: 888860517
+      vladimir_poutine_dracula_3: 1727902379
+      vladimir_poutine_dracula_5: -56262933
+      vladimir_poutine_dracula_47: 1200155980
+      vladimir_poutine_dracula_61: -695300086
+      vladimir_poutine_dracula_44: 1317594434
+      vladimir_poutine_dracula_57: -212530476
+      vladimir_poutine_dracula_62: 965530253
+      vladimir_poutine_dracula_63: -1057336306
+      vladimir_poutine_dracula_46: -2005839342
+      vladimir_poutine_dracula_31: -1820339815
+      vladimir_poutine_dracula_40: 174621035
+      vladimir_poutine_dracula_10: 1238876584
+      vladimir_poutine_dracula_11: -51457269
+      vladimir_poutine_dracula_35: 357020538
+      vladimir_poutine_dracula_8: -1597500273
+      vladimir_poutine_dracula_20: -2001228855
+      vladimir_poutine_dracula_48: 1096466108
+      vladimir_poutine_dracula_51: -913645886
+      vladimir_poutine_dracula_56: -590716688
+      vladimir_poutine_dracula_24: 214378913
+      vladimir_poutine_dracula_45: 1819483572
+      vladimir_poutine_dracula_22: 1247658308
+      vladimir_poutine_dracula_29: 140456397
+      vladimir_poutine_dracula_26: 1514369843
+      vladimir_poutine_dracula_43: -1573717257
+      vladimir_poutine_dracula_17: 1510366705
+      vladimir_poutine_dracula_60: -1331766280
+      vladimir_poutine_dracula_52: -947131267
+      vladimir_poutine_dracula_58: 981740555
+      vladimir_poutine_dracula_6: 1929158546
+      vladimir_poutine_dracula_25: 1096698657
+      vladimir_poutine_dracula_14: 1411525130
+      vladimir_poutine_dracula_59: 1225695240
+      vladimir_poutine_dracula_1: 312450935
+      vladimir_poutine_dracula_15: -1351821271
+      vladimir_poutine_dracula_37: 741316726
+      vladimir_poutine_dracula_32: -1544814264
+      vladimir_poutine_dracula_13: 1424763389
+      vladimir_poutine_dracula_12: 1383516047
+      vladimir_poutine_dracula_34: 1191892632
+      vladimir_poutine_dracula_30: -1311874852
+      vladimir_poutine_dracula_19: -750181841
+      vladimir_poutine_dracula_55: 365027410
+      vladimir_poutine_dracula_9: 2029940113
+      vladimir_poutine_dracula_49: -2068219174
+      vladimir_poutine_dracula_28: 967153879
+      vladimir_poutine_dracula_36: 655801831
+      vladimir_poutine_dracula_0: -893013782
+      vladimir_poutine_dracula_54: -68735521
+      vladimir_poutine_dracula_38: -1432324949
+      vladimir_poutine_dracula_64: -1050656843
+      vladimir_poutine_dracula_4: 586363471
+      vladimir_poutine_dracula_7: 1491997981
+      vladimir_poutine_dracula_53: -381009554
+      vladimir_poutine_dracula_16: -416567944
+      vladimir_poutine_dracula_41: -336998640
+      vladimir_poutine_dracula_50: -1632522297
+      vladimir_poutine_dracula_33: 1095144802
+      vladimir_poutine_dracula_42: 1569347744
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
