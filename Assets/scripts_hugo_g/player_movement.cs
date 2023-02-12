@@ -33,15 +33,16 @@ public class player_movement : MonoBehaviour
     public AudioClip hurt2;
     public AudioClip hurt3;
     public AudioClip jumped;
+    public AudioClip cnon;
     int randhurt;
 
     public void take_damage(float damage) {
         life -= damage;
         if (life <= 0) {
-            // death_pannel.SetActive(true);
-            // Time.timeScale = 0f;
-            // is_dead = true;
-            // audio.PlayOneShot(death);
+            death_pannel.SetActive(true);
+            Time.timeScale = 0f;
+            is_dead = true;
+            audio.PlayOneShot(death);
             print("dead");
         }
         randhurt = UnityEngine.Random.Range(1,30);
@@ -133,6 +134,13 @@ public class player_movement : MonoBehaviour
         obj.GetComponent<bouclier>().set_parent(gameObject);
         is_shoot = true;
         audio.PlayOneShot(attackdist);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        if (other.gameObject.tag == "limits") {
+            print("c'est non");
+            audio.PlayOneShot(cnon);
+        }
     }
 
     void FixedUpdate()

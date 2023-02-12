@@ -203,6 +203,7 @@ MonoBehaviour:
   hurt2: {fileID: 0}
   hurt3: {fileID: 0}
   jumped: {fileID: 0}
+  cnon: {fileID: 8300000, guid: 9068f530bc07a7340a871c61d5b4d33d, type: 3}
 --- !u!95 &444754775948892423
 Animator:
   serializedVersion: 4
