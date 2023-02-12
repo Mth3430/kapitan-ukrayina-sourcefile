@@ -15,7 +15,7 @@ public class detect_player : MonoBehaviour
     void OnTriggerExit2D(Collider2D collider)
     {
         if (collider.gameObject == player) {
-            _camera.transform.position = player.transform.position;
+            _camera.transform.position = new Vector3(player.transform.position.x, _camera.transform.position.y, -10);
         }
     }
 }
