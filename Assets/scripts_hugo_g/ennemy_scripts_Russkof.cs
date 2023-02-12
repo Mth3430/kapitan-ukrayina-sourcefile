@@ -15,6 +15,7 @@ public class ennemy_scripts_Russkof : MonoBehaviour
     public short dir = 1;
     public bool is_figth = false;
     public bool get_hit = false;
+    public bool is_reload = false;
     public Animator animator;
     public GameObject proj_pos;
     public GameObject player;
@@ -22,6 +23,9 @@ public class ennemy_scripts_Russkof : MonoBehaviour
     public all_var_script all_var;
     public LayerMask player_layer;
     public LayerMask ground;
+    public AudioSource source;
+    public AudioClip reload;
+    public AudioClip fire;
 
     float get_life() {
         return life;
@@ -47,8 +51,10 @@ public class ennemy_scripts_Russkof : MonoBehaviour
     IEnumerator wait_atk()
     {
         animator.SetBool("aim", true);
+        //source.PlayOneShot(reload);
         yield return new WaitForSeconds(0.25f);
         atk();
+        //source.PlayOneShot(fire);
         if (!is_player()) {
             animator.SetBool("aim", false);
         }
@@ -69,8 +75,14 @@ public class ennemy_scripts_Russkof : MonoBehaviour
 
     public void atk()
     {
+        if (elapsed_time >= (time_beetween_balls / 1.5) && !is_reload) {
+            source.PlayOneShot(reload);
+            is_reload = true;
+        }
         if (elapsed_time >= time_beetween_balls) {
             elapsed_time = 0f;
+            is_reload = false;
+            source.PlayOneShot(fire);
             GameObject obj = Instantiate(fireball_prefab, proj_pos.transform.position, Quaternion.identity) as GameObject;
             obj.GetComponent<fireball>().set_dir(dir);
             obj.GetComponent<fireball>().set_pos(proj_pos.transform.position);
@@ -133,7 +145,7 @@ public class ennemy_scripts_Russkof : MonoBehaviour
             }
             return;
         }
-        if (Random.Range(0, 100) < 15) {
+        if (UnityEngine.Random.Range(0, 100) < 15) {
             dir *= -1;
         }
         if (dir == 1) {
