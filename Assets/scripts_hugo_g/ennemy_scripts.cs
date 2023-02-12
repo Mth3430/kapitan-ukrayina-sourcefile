@@ -20,6 +20,7 @@ public class ennemy_scripts : MonoBehaviour
     public GameObject player;
     public GameObject fireball_prefab;
     public GameObject chauve_souris_prefab;
+    public all_var_script all_var;
     public LayerMask player_layer;
     public LayerMask ground;
 
@@ -32,6 +33,7 @@ public class ennemy_scripts : MonoBehaviour
         animator.SetBool("death", true);
         yield return new WaitForSeconds(0.9f);
         animator.SetBool("death", false);
+        all_var.add_nbr_kill(500);
         Destroy(gameObject);
     }
 
@@ -165,6 +167,7 @@ public class ennemy_scripts : MonoBehaviour
     private void Start()
     {
         player = GameObject.Find("captain");
+        all_var = GameObject.Find("all_var").GetComponent<all_var_script>();
     }
 
     void FixedUpdate()

@@ -22,6 +22,9 @@ public class player_movement : MonoBehaviour
     public GameObject shield_prefab;
     public GameObject shield_pos;
     public GameObject death_pannel;
+    public GameObject opt;
+    public GameObject pause;
+    public GameObject cine;
     public Animator animator;
     private short dir = 1;
     private bool is_jumping = false;
@@ -162,6 +165,9 @@ public class player_movement : MonoBehaviour
 
     void LateUpdate()
     {
+        if (pause.activeInHierarchy || opt.activeInHierarchy || cine.activeInHierarchy) {
+            return;
+        }
         bool walk = false;
         if (is_shoot || is_dead) {
             return;

@@ -7,6 +7,11 @@ public class all_var_script : MonoBehaviour
 {
     public int nbr_win = 0;
     public int nbr_win_to_win = 3;
+    public int nbr_kill = 0;
+
+    public void add_nbr_kill(int nbr_kill) {
+        this.nbr_kill += nbr_kill;
+    }
 
     public void add_nbr_win(int nbr_win) {
         this.nbr_win += nbr_win;
@@ -24,6 +29,7 @@ public class all_var_script : MonoBehaviour
     private void FixedUpdate() {
         if (nbr_win >= nbr_win_to_win) {
             nbr_win = 0;
+            nbr_kill = 0;
             SceneManager.LoadScene("Finish");
         }
     }
