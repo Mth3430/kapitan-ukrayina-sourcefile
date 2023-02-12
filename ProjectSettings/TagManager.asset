@@ -8,6 +8,7 @@ TagManager:
   - ground
   - shield
   - wall
+  - limits
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - fireball
   - souris
   - ennr
-  - 
+  - limits
   - 
   - 
   - 
