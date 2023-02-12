@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class player_movement : MonoBehaviour
@@ -23,6 +24,15 @@ public class player_movement : MonoBehaviour
     public Animator animator;
     private short dir = 1;
     private bool is_jumping = false;
+    public AudioSource audio;
+    public AudioClip attackcac;
+    public AudioClip attackdist;
+    public AudioClip death;
+    public AudioClip hurt;
+    public AudioClip hurt2;
+    public AudioClip hurt3;
+    public AudioClip jumped;
+    int randhurt;
 
     public void take_damage(float damage) {
         life -= damage;
@@ -30,7 +40,16 @@ public class player_movement : MonoBehaviour
             death_pannel.SetActive(true);
             Time.timeScale = 0f;
             is_dead = true;
+            audio.PlayOneShot(death);
+            print("dead");
         }
+        randhurt = UnityEngine.Random.Range(1,30);
+        if (randhurt < 10)
+            audio.PlayOneShot(hurt);
+        if (randhurt > 10 && randhurt < 20)
+            audio.PlayOneShot(hurt2);
+        if (randhurt > 20)
+            audio.PlayOneShot(hurt3);
     }
 
     public void set_shoot(bool shoot) {
@@ -57,6 +76,7 @@ public class player_movement : MonoBehaviour
                 }
             }
         }
+        audio.PlayOneShot(attackcac);
         StartCoroutine(wait());
     }
 
@@ -66,6 +86,7 @@ public class player_movement : MonoBehaviour
         obj.GetComponent<bouclier>().set_dir(dir);
         obj.GetComponent<bouclier>().set_parent(gameObject);
         is_shoot = true;
+        audio.PlayOneShot(attackdist);
     }
 
     void FixedUpdate()
@@ -80,6 +101,7 @@ public class player_movement : MonoBehaviour
                 transform.GetComponent<Rigidbody2D>().AddForce(Vector3.up * jump);
                 is_jumping = true;
                 animator.SetBool("jump", true);
+                audio.PlayOneShot(jumped);
             }
         }
     }
