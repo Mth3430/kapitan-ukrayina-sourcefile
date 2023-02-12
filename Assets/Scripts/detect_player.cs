@@ -6,10 +6,12 @@ public class detect_player : MonoBehaviour
 {
     public GameObject player;
     public GameObject _camera;
+    public bool detect_car = false;
 
     void Start()
     {
         player = GameObject.Find("captain");
+        _camera = GameObject.Find("Main Camera");
     }
 
     void OnTriggerExit2D(Collider2D collider)
