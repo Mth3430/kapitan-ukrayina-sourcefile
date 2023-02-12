@@ -30,7 +30,7 @@ public class misc : MonoBehaviour
             video.SetActive(false);
         Debug.Log("Started Coroutine at timestamp : " + Time.time);
             //yield on a new YieldInstruction that waits for 5 seconds.
-        yield return new WaitForSeconds(48);
+        yield return new WaitForSeconds(50);
         video.SetActive(false);
         //After we have waited 5 seconds print the time again.
         Debug.Log("Finished Coroutine at timestamp : " + Time.time);
