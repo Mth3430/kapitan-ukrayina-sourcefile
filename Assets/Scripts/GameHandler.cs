@@ -14,6 +14,7 @@ public class GameHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        map = Random.Range(1, 100);
     }
 
     // Update is called once per frame
@@ -26,12 +27,11 @@ public class GameHandler : MonoBehaviour
 
     void startingblock()
     {
-        map = Random.Range(0, 1);
-        if (map == 0)
+        if (map < 50)
         {
             map1.SetActive(true);
         }
-        else
+        if (map >= 50)
         {
             map2.SetActive(true);
         }
