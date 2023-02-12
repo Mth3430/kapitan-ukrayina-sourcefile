@@ -25,6 +25,9 @@ public class end_scene : MonoBehaviour
         yield return new WaitForSeconds(2f);
         is_active = false;
         transform.position = position;
+        if (!all_var) {
+            all_var = GameObject.Find("all_var").GetComponent<all_var_script>();
+        }
         all_var.add_nbr_win(1);
         foreach (GameObject scene in scenes) {
             scene.SetActive(false);

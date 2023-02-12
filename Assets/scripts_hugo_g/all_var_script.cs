@@ -21,15 +21,23 @@ public class all_var_script : MonoBehaviour
         return nbr_win;
     }
 
+    public void Reset() {
+        nbr_win = 0;
+        nbr_kill = 0;
+    }
+
     void Start()
     {
+        GameObject[] obj = GameObject.FindGameObjectsWithTag("GameController");
+        if (obj.Length > 1)
+            Destroy(gameObject);
+        nbr_kill = 0;
         DontDestroyOnLoad(gameObject);
     }
 
     private void FixedUpdate() {
         if (nbr_win >= nbr_win_to_win) {
             nbr_win = 0;
-            nbr_kill = 0;
             SceneManager.LoadScene("Finish");
         }
     }

@@ -21,6 +21,7 @@ public class ennemy_scripts_Russkof : MonoBehaviour
     public GameObject player;
     public GameObject fireball_prefab;
     public all_var_script all_var;
+    public all_mobs all_mob;
     public LayerMask player_layer;
     public LayerMask ground;
     public AudioSource source;
@@ -37,6 +38,7 @@ public class ennemy_scripts_Russkof : MonoBehaviour
         yield return new WaitForSeconds(0.9f);
         animator.SetBool("death", false);
         all_var.add_nbr_kill(100);
+        all_mob.nbr_rus -= 1;
         Destroy(gameObject);
     }
 
@@ -168,6 +170,7 @@ public class ennemy_scripts_Russkof : MonoBehaviour
     {
         player = GameObject.Find("captain");
         all_var = GameObject.Find("all_var").GetComponent<all_var_script>();
+        all_mob = GameObject.Find("all_mobs").GetComponent<all_mobs>();
     }
 
     void FixedUpdate()

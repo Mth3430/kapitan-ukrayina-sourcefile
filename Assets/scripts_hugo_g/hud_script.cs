@@ -12,6 +12,9 @@ public class hud_script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!all_var) {
+            all_var = GameObject.Find("all_var").GetComponent<all_var_script>();
+        }
         score.text = "Score: " + all_var.nbr_kill;
     }
 }

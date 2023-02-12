@@ -8,6 +8,7 @@ public class spawn : MonoBehaviour
     public all_mobs spawnMobs;
     public float elapsedTime;
     public float spawnTime;
+    public int spawn_rate_vlad = 20;
     public int chance = 15;
     public bool is_active = false;
 
@@ -24,7 +25,7 @@ public class spawn : MonoBehaviour
         if (elapsedTime >= spawnTime) {
             elapsedTime = 0;
             if (Random.Range(0, 100) < chance) {
-                int randomIndex = (Random.Range(0, 100) <= 2) ? 1 : 0;
+                int randomIndex = (Random.Range(0, 100) <= spawn_rate_vlad) ? 1 : 0;
                 if (randomIndex == 1 && spawnMobs.nbr_vlad >= spawnMobs.max_vlad) {
                     if (spawnMobs.nbr_rus >= spawnMobs.max_rus) {
                         return;

@@ -25,6 +25,8 @@ public class player_movement : MonoBehaviour
     public GameObject opt;
     public GameObject pause;
     public GameObject cine;
+    public GameObject groundSample;
+    public GameObject SpawnPoint;
     public Animator animator;
     private short dir = 1;
     private bool is_jumping = false;
@@ -171,6 +173,9 @@ public class player_movement : MonoBehaviour
         bool walk = false;
         if (is_shoot || is_dead) {
             return;
+        }
+        if (transform.position.y < groundSample.transform.position.y) {
+            transform.position = new Vector3(transform.position.x, SpawnPoint.transform.position.y, transform.position.z);
         }
         if (animator.GetBool("wait")) {
             animator.SetBool("wait", false);
