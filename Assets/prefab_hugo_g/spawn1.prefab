@@ -45,8 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnObjects:
+  - {fileID: 7571760691835867936, guid: a9ac9c55e1f263e49993c6eef76b4613, type: 3}
   - {fileID: 4320697169618550733, guid: d75580eec407bac429f9ab3b54b2d910, type: 3}
+  spawnMobs: {fileID: 0}
   elapsedTime: 0
   spawnTime: 3
-  chance: 10
+  chance: 30
   is_active: 0

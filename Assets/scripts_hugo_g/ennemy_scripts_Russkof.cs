@@ -54,6 +54,7 @@ public class ennemy_scripts_Russkof : MonoBehaviour
 
     public void take_damages(float damage)
     {
+        print((get_hit, life));
         if (get_hit || life <= 0) {
             return;
         }

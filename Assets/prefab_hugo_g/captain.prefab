@@ -175,9 +175,11 @@ MonoBehaviour:
   - d
   speed: 5
   jump: 100
-  atk_range: 1
+  life: 5
+  atk_range: 5
   atk_damage: 1
   dist_to_ground: 0.05
+  is_dead: 0
   is_shoot: 0
   ground:
     serializedVersion: 2
@@ -185,10 +187,22 @@ MonoBehaviour:
   ennemy:
     serializedVersion: 2
     m_Bits: 64
+  ennemy2:
+    serializedVersion: 2
+    m_Bits: 2048
   attack_key: 101
   shield_prefab: {fileID: 2132648545553483631, guid: 4df67f85e2992194d9dbb36ed4a8a5cb, type: 3}
   shield_pos: {fileID: 444754775277343342}
+  death_pannel: {fileID: 0}
   animator: {fileID: 444754775948892423}
+  audio: {fileID: 0}
+  attackcac: {fileID: 0}
+  attackdist: {fileID: 0}
+  death: {fileID: 0}
+  hurt: {fileID: 0}
+  hurt2: {fileID: 0}
+  hurt3: {fileID: 0}
+  jumped: {fileID: 0}
 --- !u!95 &444754775948892423
 Animator:
   serializedVersion: 4

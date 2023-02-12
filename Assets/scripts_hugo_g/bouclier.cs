@@ -37,6 +37,9 @@ public class bouclier : MonoBehaviour
         if (other.gameObject.GetComponent<ennemy_scripts>()) {
             other.gameObject.GetComponent<ennemy_scripts>().take_damages(damage);
         }
+        if (other.gameObject.GetComponent<ennemy_scripts_Russkof>()) {
+            other.gameObject.GetComponent<ennemy_scripts_Russkof>().take_damages(damage);
+        }
         if (other.gameObject.tag != "Player") {
             dir *= -1;
         }
