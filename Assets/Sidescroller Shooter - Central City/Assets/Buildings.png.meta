@@ -1478,7 +1478,7 @@ TextureImporter:
         width: 16
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1486,6 +1486,27 @@ TextureImporter:
       bones: []
       spriteID: 30695072523f49b4295032ad3f5d5494
       internalID: -1015527781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buildings_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e3422144e62634cbe22d2461ee27e1
+      internalID: 855848067
       vertices: []
       indices: 
       edges: []
@@ -1503,7 +1524,7 @@ TextureImporter:
     nameFileIdTable:
       Buildings_57: 925009239
       Buildings_49: -1039296785
-      Buildings_32: -272494365
+      Buildings_35: 1335399588
       Buildings_13: 43913687
       Buildings_36: -2015362858
       Buildings_0: -498341560
@@ -1536,6 +1557,7 @@ TextureImporter:
       Buildings_14: -497112572
       Buildings_28: 2003902917
       Buildings_44: -1902521765
+      Buildings_66: 855848067
       Buildings_65: -1015527781
       Buildings_20: -598521514
       Buildings_29: 1159404507
@@ -1564,9 +1586,9 @@ TextureImporter:
       Buildings_47: -871909605
       Buildings_17: 1732519450
       Buildings_64: -975283047
-      Buildings_35: 1335399588
       Buildings_55: 1555925425
       Buildings_30: -1242408888
+      Buildings_32: -272494365
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
