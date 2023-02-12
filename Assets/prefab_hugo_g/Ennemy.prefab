@@ -143,7 +143,9 @@ MonoBehaviour:
   atk_range: 10
   dist_to_ground: 1
   elapsed_time: 0
-  time_beetween_balls: 0
+  time_beetween_balls: 0.3
+  chance_of_bat_spawn: 20
+  nbr_of_bat_spawn: 3
   dir: 1
   is_figth: 0
   get_hit: 0

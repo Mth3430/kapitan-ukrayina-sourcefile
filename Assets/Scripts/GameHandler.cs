@@ -10,7 +10,7 @@ public class GameHandler : MonoBehaviour
     public GameObject captain;
     public GameObject spawnpoint;
     private bool isstarted;
-    int map = Random.Range(0, 1);
+    int map;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +26,7 @@ public class GameHandler : MonoBehaviour
 
     void startingblock()
     {
+        map = Random.Range(0, 1);
         if (map == 0)
         {
             map1.SetActive(true);

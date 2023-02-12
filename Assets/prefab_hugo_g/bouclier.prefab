@@ -101,8 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Pos_init: {x: 0, y: 0, z: 0}
   parent: {fileID: 0}
-  speed: 5
-  dist: 5
+  speed: 10
+  dist: 10
   dir: 1
   dir_init: 1
   damage: 1

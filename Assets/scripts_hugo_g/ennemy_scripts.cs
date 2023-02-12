@@ -10,6 +10,8 @@ public class ennemy_scripts : MonoBehaviour
     public float dist_to_ground = 1f;
     public float elapsed_time = 0f;
     public float time_beetween_balls = 1f;
+    public int chance_of_bat_spawn = 15;
+    public int nbr_of_bat_spawn = 1;
     public short dir = 1;
     public bool is_figth = false;
     public bool get_hit = false;
@@ -66,15 +68,17 @@ public class ennemy_scripts : MonoBehaviour
 
     public void spawn_chauve_souris()
     {
-        GameObject obj = Instantiate(chauve_souris_prefab, proj_pos.transform.position, Quaternion.identity) as GameObject;
-        obj.GetComponent<chauve_souris>().set_pos(proj_pos.transform.position);
+        for (int i = 0; i < nbr_of_bat_spawn; i++) {
+            GameObject obj = Instantiate(chauve_souris_prefab, proj_pos.transform.position, Quaternion.identity) as GameObject;
+            obj.GetComponent<chauve_souris>().set_pos(proj_pos.transform.position);
+        }
     }
 
     public void atk()
     {
         if (elapsed_time >= time_beetween_balls) {
             elapsed_time = 0f;
-            if (Random.Range(0, 100) <= 20) {
+            if (Random.Range(0, 100) <= chance_of_bat_spawn) {
                 spawn_chauve_souris();
                 return;
             }
