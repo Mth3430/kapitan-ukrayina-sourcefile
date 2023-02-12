@@ -47507,13 +47507,6 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 444754775948892419, guid: 85fa9ae440dcd0444ae49ba38f0f48bf, type: 3}
-      propertyPath: death_pannel
-      value: 
-      objectReference: {fileID: 1415417846}
-      propertyPath: jumped
-      value: 
-      objectReference: {fileID: 8300000, guid: 0c08d14e5b889a846b4f2b480d52d261, type: 3}
-    - target: {fileID: 444754775948892419, guid: 85fa9ae440dcd0444ae49ba38f0f48bf, type: 3}
       propertyPath: attackcac
       value: 
       objectReference: {fileID: 8300000, guid: 061c6920d819f9b4784c006db0313dbd, type: 3}
@@ -47521,6 +47514,10 @@ PrefabInstance:
       propertyPath: attackdist
       value: 
       objectReference: {fileID: 8300000, guid: 921e516758d5cba4d9384684d3945f93, type: 3}
+    - target: {fileID: 444754775948892419, guid: 85fa9ae440dcd0444ae49ba38f0f48bf, type: 3}
+      propertyPath: death_pannel
+      value: 
+      objectReference: {fileID: 1415417846}
     - target: {fileID: 444754775948892429, guid: 85fa9ae440dcd0444ae49ba38f0f48bf, type: 3}
       propertyPath: m_Name
       value: captain
@@ -122503,6 +122500,10 @@ PrefabInstance:
     - target: {fileID: 696192276956541614, guid: 17a423edf474aab40a06b7d5e461ee83, type: 3}
       propertyPath: m_Name
       value: DeathPannel
+      objectReference: {fileID: 0}
+    - target: {fileID: 696192276956541614, guid: 17a423edf474aab40a06b7d5e461ee83, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 696192276956541615, guid: 17a423edf474aab40a06b7d5e461ee83, type: 3}
       propertyPath: m_RootOrder
