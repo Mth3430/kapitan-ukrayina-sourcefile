@@ -27,6 +27,7 @@ public class GameHandler : MonoBehaviour
 
     void startingblock()
     {
+        print(map);
         if (map < 50)
         {
             map1.SetActive(true);
@@ -34,6 +35,10 @@ public class GameHandler : MonoBehaviour
         if (map >= 50)
         {
             map2.SetActive(true);
+        }
+        else
+        {
+            map1.SetActive(true);
         }
         captain.transform.position = spawnpoint.transform.position;
         isstarted = true;
