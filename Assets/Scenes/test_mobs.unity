@@ -374,7 +374,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1567051764118017752, guid: 9073c1f0c0d2ef646b0eae1c4fd203d4, type: 3}
   m_PrefabInstance: {fileID: 3362070301306899157}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &780646948
+--- !u!95 &780646944
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -384,7 +384,7 @@ Animator:
   m_GameObject: {fileID: 780646942}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c5ca3dccee3078c4db64c29b580f6215, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4ac40a1c8bc9f02408f3d1d714037604, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1594,7 +1594,7 @@ PrefabInstance:
     - target: {fileID: 7267716678905480709, guid: 9073c1f0c0d2ef646b0eae1c4fd203d4, type: 3}
       propertyPath: animator
       value: 
-      objectReference: {fileID: 780646948}
+      objectReference: {fileID: 780646944}
     - target: {fileID: 7267716678905480709, guid: 9073c1f0c0d2ef646b0eae1c4fd203d4, type: 3}
       propertyPath: is_figth
       value: 0

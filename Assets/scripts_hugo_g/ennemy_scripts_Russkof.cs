@@ -44,13 +44,12 @@ public class ennemy_scripts_Russkof : MonoBehaviour
 
     IEnumerator wait_atk()
     {
-        animator.SetBool("atk", true);
+        animator.SetBool("aim", true);
         yield return new WaitForSeconds(0.25f);
-        animator.SetBool("atk", false);
         atk();
-        animator.SetBool("atk2", true);
-        yield return new WaitForSeconds(0.15f);
-        animator.SetBool("atk2", false);
+        if (!is_player()) {
+            animator.SetBool("aim", false);
+        }
     }
 
     public void take_damages(float damage)
@@ -90,6 +89,7 @@ public class ennemy_scripts_Russkof : MonoBehaviour
                 dir = -1;
             }
         }
+        animator.SetBool("aim", false);
     }
 
     public bool is_player() {
@@ -156,6 +156,7 @@ public class ennemy_scripts_Russkof : MonoBehaviour
 
     void FixedUpdate()
     {
+        animator.SetBool("walk", true);
         if (life <= 0)
         {
             StartCoroutine(wait_death());
