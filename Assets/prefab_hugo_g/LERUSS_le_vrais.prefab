@@ -137,7 +137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 859895065941524508}
-  m_Layer: 6
+  m_Layer: 11
   m_Name: proj_pos
   m_TagString: Untagged
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 4275813460946509226}
   - component: {fileID: 8303158641949578}
   - component: {fileID: 7333971504306494798}
-  m_Layer: 6
+  m_Layer: 11
   m_Name: LERUSS_le_vrais
   m_TagString: ennemy
   m_Icon: {fileID: 0}
@@ -189,7 +189,7 @@ Transform:
   m_GameObject: {fileID: 7571760691835867936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.4002743, y: -1.402778, z: -0.13096794}
-  m_LocalScale: {x: -2.5, y: 2.5, z: 1}
+  m_LocalScale: {x: -7, y: 7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 859895065941524508}
@@ -237,7 +237,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: -183813824, guid: e07358a2f2bde994490cd91cf2d90cb6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 3
   speed: 1
-  atk_range: 5
+  atk_range: 10
   dist_to_ground: 1
   elapsed_time: 0.19468479
   time_beetween_balls: 0.5

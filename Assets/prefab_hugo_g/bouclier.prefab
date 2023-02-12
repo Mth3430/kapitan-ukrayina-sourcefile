@@ -105,7 +105,7 @@ MonoBehaviour:
   dist: 10
   dir: 1
   dir_init: 1
-  damage: 1
+  damage: 2
 --- !u!95 &2531423285846752843
 Animator:
   serializedVersion: 4

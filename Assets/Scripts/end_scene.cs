@@ -10,6 +10,7 @@ public class end_scene : MonoBehaviour
     public Vector3 position;
     public float speed = 200f;
     public bool is_active = false;
+    public all_var_script all_var;
 
     private void Start() {
         position = transform.position;
@@ -24,6 +25,7 @@ public class end_scene : MonoBehaviour
         yield return new WaitForSeconds(2f);
         is_active = false;
         transform.position = position;
+        all_var.add_nbr_win(1);
         foreach (GameObject scene in scenes) {
             scene.SetActive(false);
         }

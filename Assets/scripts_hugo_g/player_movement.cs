@@ -17,6 +17,7 @@ public class player_movement : MonoBehaviour
     public bool is_shoot = false;
     public LayerMask ground;
     public LayerMask ennemy;
+    public LayerMask ennemy2;
     public KeyCode attack_key = KeyCode.E;
     public GameObject shield_prefab;
     public GameObject shield_pos;
@@ -32,6 +33,7 @@ public class player_movement : MonoBehaviour
     public AudioClip hurt2;
     public AudioClip hurt3;
     public AudioClip jumped;
+    public AudioClip cnon;
     int randhurt;
 
     public void take_damage(float damage) {
@@ -67,12 +69,57 @@ public class player_movement : MonoBehaviour
 
     void attack() {
         RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position + Vector3.up * (gameObject.GetComponent<SpriteRenderer>().size.y / 2), Vector3.right * dir, atk_range, ennemy);
+        RaycastHit2D[] hits1 = Physics2D.RaycastAll(transform.position + Vector3.up * (gameObject.GetComponent<SpriteRenderer>().size.y), Vector3.right * dir, atk_range, ennemy);
+        RaycastHit2D[] hits2 = Physics2D.RaycastAll(transform.position, Vector3.right * dir, atk_range, ennemy);
+        RaycastHit2D[] hitsr = Physics2D.RaycastAll(transform.position + Vector3.up * (gameObject.GetComponent<SpriteRenderer>().size.y / 2), Vector3.right * dir, atk_range, ennemy2);
+        RaycastHit2D[] hits1r = Physics2D.RaycastAll(transform.position + Vector3.up * (gameObject.GetComponent<SpriteRenderer>().size.y), Vector3.right * dir, atk_range, ennemy2);
+        RaycastHit2D[] hits2r = Physics2D.RaycastAll(transform.position, Vector3.right * dir, atk_range, ennemy2);
         animator.SetBool("attack1", true);
         if (hits.Length > 0) {
             foreach (RaycastHit2D hit in hits) {
                 if (hit.collider.GetComponent<ennemy_scripts>()) {
                     print("hit ennemy");
                     hit.collider.GetComponent<ennemy_scripts>().take_damages(atk_damage);
+                }
+            }
+        }
+        if (hits1.Length > 0) {
+            foreach (RaycastHit2D hit in hits1) {
+                if (hit.collider.GetComponent<ennemy_scripts>()) {
+                    print("hit ennemy");
+                    hit.collider.GetComponent<ennemy_scripts>().take_damages(atk_damage);
+                }
+            }
+        }
+        if (hits2.Length > 0) {
+            foreach (RaycastHit2D hit in hits2) {
+                if (hit.collider.GetComponent<ennemy_scripts>()) {
+                    print("hit ennemy");
+                    hit.collider.GetComponent<ennemy_scripts>().take_damages(atk_damage);
+                }
+            }
+        }
+        if (hitsr.Length > 0) {
+            foreach (RaycastHit2D hit in hitsr) {
+                if (hit.collider.GetComponent<ennemy_scripts_Russkof>()) {
+                    print("hit ennemy");
+                    hit.collider.GetComponent<ennemy_scripts_Russkof>().take_damages(atk_damage);
+                }
+            }
+        }
+        if (hits1r.Length > 0) {
+            foreach (RaycastHit2D hit in hits1r) {
+                if (hit.collider.GetComponent<ennemy_scripts_Russkof>()) {
+                    print("hit ennemy");
+                    hit.collider.GetComponent<ennemy_scripts_Russkof>().take_damages(atk_damage);
+                }
+            }
+        }
+        if (hits2r.Length > 0) {
+            foreach (RaycastHit2D hit in hits2r) {
+                if (hit.collider.GetComponent<ennemy_scripts_Russkof>()) {
+                    print("hit ennemy");
+                    hit.collider.GetComponent<ennemy_scripts_Russkof>().take_damages(atk_damage);
                 }
             }
         }
@@ -87,6 +134,13 @@ public class player_movement : MonoBehaviour
         obj.GetComponent<bouclier>().set_parent(gameObject);
         is_shoot = true;
         audio.PlayOneShot(attackdist);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        if (other.gameObject.tag == "limits") {
+            print("c'est non");
+            audio.PlayOneShot(cnon);
+        }
     }
 
     void FixedUpdate()
