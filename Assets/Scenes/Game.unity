@@ -72148,6 +72148,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1952405506747295357, guid: 9329811985100154097d353143af3b44, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5662532098123320978, guid: 9329811985100154097d353143af3b44, type: 3}
       propertyPath: m_Name
       value: Main Camera
