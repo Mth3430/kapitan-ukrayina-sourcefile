@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class player_movement : MonoBehaviour
@@ -12,21 +13,43 @@ public class player_movement : MonoBehaviour
     public float atk_range = 1f;
     public float atk_damage = 1f;
     public float dist_to_ground = 1f;
+    public bool is_dead = false;
     public bool is_shoot = false;
     public LayerMask ground;
     public LayerMask ennemy;
     public KeyCode attack_key = KeyCode.E;
     public GameObject shield_prefab;
     public GameObject shield_pos;
+    public GameObject death_pannel;
     public Animator animator;
     private short dir = 1;
     private bool is_jumping = false;
+    public AudioSource audio;
+    public AudioClip attackcac;
+    public AudioClip attackdist;
+    public AudioClip death;
+    public AudioClip hurt;
+    public AudioClip hurt2;
+    public AudioClip hurt3;
+    public AudioClip jumped;
+    int randhurt;
 
     public void take_damage(float damage) {
         life -= damage;
         if (life <= 0) {
+            death_pannel.SetActive(true);
+            Time.timeScale = 0f;
+            is_dead = true;
+            audio.PlayOneShot(death);
             print("dead");
         }
+        randhurt = UnityEngine.Random.Range(1,30);
+        if (randhurt < 10)
+            audio.PlayOneShot(hurt);
+        if (randhurt > 10 && randhurt < 20)
+            audio.PlayOneShot(hurt2);
+        if (randhurt > 20)
+            audio.PlayOneShot(hurt3);
     }
 
     public void set_shoot(bool shoot) {
@@ -53,6 +76,7 @@ public class player_movement : MonoBehaviour
                 }
             }
         }
+        audio.PlayOneShot(attackcac);
         StartCoroutine(wait());
     }
 
@@ -62,11 +86,12 @@ public class player_movement : MonoBehaviour
         obj.GetComponent<bouclier>().set_dir(dir);
         obj.GetComponent<bouclier>().set_parent(gameObject);
         is_shoot = true;
+        audio.PlayOneShot(attackdist);
     }
 
     void FixedUpdate()
     {
-        if (is_shoot) {
+        if (is_shoot || is_dead) {
             return;
         }
         if (Input.GetKey(KeyCode.Space) || Input.GetKey(playerInput[0]))
@@ -76,6 +101,7 @@ public class player_movement : MonoBehaviour
                 transform.GetComponent<Rigidbody2D>().AddForce(Vector3.up * jump);
                 is_jumping = true;
                 animator.SetBool("jump", true);
+                audio.PlayOneShot(jumped);
             }
         }
     }
@@ -83,7 +109,7 @@ public class player_movement : MonoBehaviour
     void LateUpdate()
     {
         bool walk = false;
-        if (is_shoot) {
+        if (is_shoot || is_dead) {
             return;
         }
         if (animator.GetBool("wait")) {

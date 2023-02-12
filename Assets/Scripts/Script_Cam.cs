@@ -6,6 +6,8 @@ public class Script_Cam : MonoBehaviour
 {
     public float smoothing = 0.5f;
     public float smoothingbase = 0.5f;
+    public float dir = 1f;
+    public bool follow_car = false;
     public GameObject[] Spawn_Points;
     public GameObject player;
     player_movement player_script;
@@ -21,7 +23,7 @@ public class Script_Cam : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.tag == "Player") {
-            smoothing = 2f;
+            smoothing = 3f;
         }
     }
 
@@ -32,13 +34,17 @@ public class Script_Cam : MonoBehaviour
     }
 
     private void Update() {
-        if (Input.GetKey(player_script.playerInput[1]))
-        {
-            transform.Translate(Vector3.left * Time.deltaTime * player_script.speed * smoothing);
+        if (follow_car) {
+            return;
         }
-        if (Input.GetKey(player_script.playerInput[2]))
-        {
-            transform.Translate(Vector3.right * Time.deltaTime * player_script.speed * smoothing);
+        if (player.transform.position.x + 1f > transform.position.x && player.transform.position.x - 1f < transform.position.x) {
+            return;
         }
+        if (player.transform.position.x > transform.position.x) {
+            dir = 1f;
+        } else {
+            dir = -1f;
+        }
+        transform.Translate(Vector3.right * dir * (player.GetComponent<player_movement>().speed + 2f) * Time.deltaTime * smoothing);
     }
 }
